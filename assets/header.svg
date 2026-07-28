@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Vivaan Shahani — builder, engineer, writer</title>
+  <desc id="desc">A dark high-tech profile banner with cyan and violet accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060913"/>
+      <stop offset="0.55" stop-color="#0a1021"/>
+      <stop offset="1" stop-color="#0b0718"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4deeea"/>
+      <stop offset="0.5" stop-color="#00a8ff"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#4deeea" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <ellipse cx="180" cy="120" rx="320" ry="240" fill="url(#glowCyan)"/>
+  <ellipse cx="1070" cy="290" rx="420" ry="270" fill="url(#glowViolet)"/>
+
+  <path d="M36 66V38h28M1136 38h28v28M36 254v28h28M1136 282h28v-28" fill="none" stroke="url(#neon)" stroke-width="2"/>
+  <path d="M77 88H430M770 235h350" stroke="url(#neon)" stroke-opacity="0.42"/>
+  <circle cx="77" cy="88" r="3" fill="#4deeea" filter="url(#softGlow)"/>
+  <circle cx="1120" cy="235" r="3" fill="#a855f7" filter="url(#softGlow)"/>
+
+  <g transform="translate(1030 88)" fill="none" stroke="#4deeea">
+    <circle r="48" stroke-opacity="0.18"/>
+    <circle r="34" stroke-opacity="0.35" stroke-dasharray="8 7"/>
+    <circle r="4" fill="#4deeea" filter="url(#softGlow)"/>
+    <path d="M0-58V-48M0 48V58M-58 0h10M48 0h10" stroke-opacity="0.7"/>
+    <path d="M0 0L29-19" stroke="#a855f7" stroke-width="2"/>
+  </g>
+
+  <g font-family="monospace">
+    <text x="77" y="61" fill="#4deeea" font-size="13" letter-spacing="3">PROFILE://GEOWIZARD4645</text>
+    <text x="74" y="154" fill="#f8fafc" font-size="54" font-weight="700" letter-spacing="4">VIVAAN SHAHANI</text>
+    <rect x="77" y="178" width="536" height="2" fill="url(#neon)"/>
+    <text x="77" y="210" fill="#b8c4d8" font-size="18" letter-spacing="3">BUILDER  //  ENGINEER  //  WRITER</text>
+    <text x="77" y="256" fill="#8390a5" font-size="13" letter-spacing="1.5">LOCAL-FIRST SOFTWARE · EMBEDDED SYSTEMS · PRODUCT ENGINEERING</text>
+
+    <circle cx="938" cy="255" r="5" fill="#34d399" filter="url(#softGlow)"/>
+    <text x="953" y="260" fill="#9fb0c8" font-size="12" letter-spacing="1.5">STATUS: SHIPPING</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="url(#neon)" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
