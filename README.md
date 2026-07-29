@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="./assets/ascii-portrait.svg" alt="Vivaan Shahani — self-typing ASCII portrait" width="460" />
+</div>
+
+<div align="center">
   <img src="./assets/header.svg" alt="Vivaan Shahani — builder, engineer, writer" width="100%" />
 </div>
 
